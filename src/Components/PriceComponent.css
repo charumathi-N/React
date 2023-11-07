@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(
+  90deg,
+  hsl(206deg 69% 49%) 0%,
+  hsl(200deg 89% 46%) 13%,
+  hsl(196deg 100% 45%) 25%,
+  hsl(194deg 100% 46%) 37%,
+  hsl(192deg 90% 49%) 50%,
+  hsl(190deg 89% 57%) 63%,
+  hsl(188deg 90% 62%) 75%,
+  hsl(185deg 91% 68%) 87%,
+  hsl(181deg 93% 73%) 100%
+);
+}
+.Main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.Card{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    border-radius: 15px;
+}
+.Card:hover{
+    background-color: rgb(226, 236, 236);
+}
+.CardHeader{
+    text-align: center;
+}
+#Sub_Type{
+    color:grey;
+}
+#Rate{
+    color:black;
+    font-size:35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.CardBody{
+    position: relative;
+}
+.text{
+    padding:8px;
+    list-style: none;
+}
+.Select{
+    border-radius: 25px;
+    width:290px;
+    position: absolute;
+    bottom: 40px;
+    
+}
